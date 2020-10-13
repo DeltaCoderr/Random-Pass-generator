@@ -1,0 +1,30 @@
+.container {
+  padding: 100px 0;
+}
+
+#password {
+  color: black;
+  font-family: sans-serif;
+  font-size: 3em;
+  text-align: center;
+}
+
+.action {
+  text-align: center;
+  margin-top: 50px;
+}
+.action button {
+  display: inline-block;
+  width: 120px;
+  padding: 12px 0;
+  font-size: 1em;
+  background-color: #130815;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.action button:hover {
+  color: #f7f7f7;
+}
